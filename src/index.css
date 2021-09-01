@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
+* {
+  font-family: "Inter", sans-serif;
+}
+
 body {
   font-family: "Inter", sans-serif;
   margin: 3rem;
@@ -53,8 +57,10 @@ h2 {
 }
 
 .cards-title .cards-title-heading {
-  padding-left: 15px;
+  float: right;
+  padding-left: 5px;
   justify-content: space-between;
+  font-weight: lighter;
 }
 
 .btn-form {
@@ -87,9 +93,13 @@ h2 {
   padding: 0px 40px 0 10px;
 }
 
-.card-title {
-  font-weight: bold;
+.card-title{
   text-align: center;
+}
+
+
+.cards-title {
+  font-weight: bold;
 }
 
 .card-inner {

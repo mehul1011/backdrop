@@ -52,7 +52,7 @@ function Modal(props) {
         <p className="cards-title">New Virtual Event 
         <span class="vl"></span>
         <i class="fab fa-meetup cards-title-heading">Zoom integration available</i> </p>
-        <p>Choose an event to duplicate, tweek a few things, and you are well on your way. </p>
+        <p>Host via Zoom, or your preferred virtusl conferencing platform. </p>
         </div>
       </div>
       </button>
@@ -69,7 +69,7 @@ function Modal(props) {
       <div className="card-inner">
       <div className="">
         <p className="cards-title">New in-person Event</p>
-        <p>Choose an event to duplicate, tweek a few things, and you are well on your way. </p>
+        <p>Guest will join you in the real world, face-to-face.</p>
         </div>
       </div>
     </div>
